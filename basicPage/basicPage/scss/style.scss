@@ -1,0 +1,182 @@
+// Scss Document
+$headerColor: lightblue;
+$navColor: #048abf;
+$bodyColor: beige;
+$formColor: orange;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: $bodyColor;
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: $headerColor;
+    padding: 5px;
+    width:100%;
+   
+   img	{
+    margin-top:20px;
+    margin-left:50px;
+    margin-bottom:20px;
+    margin-right:10px;
+    vertical-align:middle;
+    border: 2px solid black;
+   
+    }
+
+}
+
+
+nav {
+background-color: $navColor;
+text-align: center;
+padding: 30px;
+   
+    a {
+        list-style: none;
+        color: #f8f4f4;
+        text-align: center;
+        padding: 0px 25px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+   
+}
+
+.contentDiv{
+width: 100%;
+float: left;
+background: $bodyColor;
+padding: 20px;
+
+}
+
+.bigImg p img{
+    width: 400px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.imageGallery img{
+    height: 125px;
+    width: 125px;
+    border: 2px solid black;
+    margin-left: 3px;
+    margin-bottom: 30px;
+
+
+}
+
+.section1{
+    width: 450px;
+    float: left;
+    padding-left: 30px;
+
+}
+
+.section2{
+    width: 480px;
+    float: right;
+    padding-right:40px;
+}
+
+.rightText{
+    column-count: 2;
+}
+
+.form{
+    background:$formColor;
+    height: 325px;
+    float: right;
+    width: 440px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+
+    textarea{
+       width: 60%;
+       height:60px;
+       margin-bottom: -20px;
+        
+        
+    }
+}
+
+
+input[type=text]{
+    font-size: 22px;
+    width: 60%;
+    margin-left: 20px;
+    
+   
+}
+
+input[type=submit]{
+    background-color:#038BBC;
+    margin-left:26%;
+    margin-top: 5%;
+
+}
+
+input[type=reset]{
+    background-color:#F14407;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+input[type=submit], input[type=reset]{
+    font-size: 15px;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+   float: left;
+  
+ 
+}
+
+label {
+    width: 200px;
+    margin: 10px 15px;
+
+}
+
+
+footer {
+    width: 100%;
+    padding: 1-px;
+    font-size: 15px;
+    background-color: $navColor;
+    margin-bottom: 20px;
+  }
+  
+  footer h1 img {
+    float: right;
+    width: 80px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+   
+  }
+  
+  footer h1 {
+    padding-left: 3%;
+    color:white;
+    padding-top: 20px;
+  }
+
+.clearFix{
+    content: "";
+    clear: both;
+    display: table;
+
+}
